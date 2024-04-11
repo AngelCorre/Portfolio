@@ -1,1 +1,287 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  
+  --background: #111111;
+  --primary: #A33ACB;
+  --secondary:#ffffff;
+  --text: #dcdcdc;
+  --white: #ffff;
+  
+}
+
+/* ANGULAR MATERIAL */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Reddit Mono', 'monospace'; background-color: var(--background);}
+
+section {
+  display: table;
+}
+
+.example-button-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  align-items: center;
+  width: 600px;
+  color: var(--secondary);
+  
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+
+/* PERSONALIZADO GLOBALES */
+
+.background {
+  
+  background-color: var(--background) !important;
+  
+}
+
+.text-primary {
+  
+  color: var(--white) !important;
+  
+}
+
+.container-main {
+
+  width: min(90%, 120rem);
+  margin-bottom: 3rem !important;
+  margin: 0 auto;
+  padding-top: 1rem;
+  text-align: justify;
+
+}
+
+.cursor {
+
+  cursor: pointer;
+
+}
+
+.d-fx {
+
+  display: flex;
+  justify-content: space-around !important;
+  align-items: center !important;
+
+}
+
+.d-gd {
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 100px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.c-py {
+
+  color: var(--primary);
+
+}
+
+.fw-b {
+
+  font-weight: bold !important;
+
+}
+
+.fw-l {
+
+  font-weight: lighter;
+
+}
+
+.txt-c {
+
+  text-align: center !important;
+
+}
+
+.mg-20 {
+
+  margin: 10px;
+
+}
+
+.c-bk {
+
+  color: var(--background) !important;
+
+}
+
+.mg-a {
+
+  margin: 0 auto !important;
+
+}
+
+/*  */
+
+h1 {
+
+  color: var(--secondary);
+  font-size: 35px;
+
+} 
+
+h2 {
+
+  color: var(--secondary);
+  font-size: 28px;
+
+}
+
+h3 {
+
+  color: var(--text);
+  font-size: 22px;
+
+
+}
+
+a {
+  
+  
+  text-decoration: none;
+  font-size: 15px !important;
+  color: var(--white) !important;
+  font-weight: bold !important;
+
+}
+
+p {
+
+  color: var(--text);
+  font-weight: normal;
+
+}
+
+/* NAVBAR */
+
+
+.navbar-link:hover{
+  
+  background-color: var(--primary) !important;
+  transition: 1s !important;
+  font-weight: bold;
+  
+}
+
+/* HOME */
+
+
+.container-info {
+
+  width: 700px;
+
+}
+
+.section-presentation {
+
+  margin: 0 auto;
+  text-align: justify;
+  padding: 30px;
+
+
+}
+
+.skills-icons {
+
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  column-gap: 50px;
+
+}
+
+.hover-icon {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+}
+
+.hover-icon:hover {
+
+  transition: 1s;
+  background-color: var(--primary);
+  border-radius: 10px !important;
+}
+
+.copy {
+
+  padding: 5px;
+  margin: 10px;
+
+}
+
+/* My Work */
+
+.example-card {
+  max-width: 350px !important;
+  height: 450px !important;
+  margin-bottom: 8px !important;
+  background-color: #343434 !important;
+  color: var(--secondary) !important;
+  border-radius: 10px !important;
+}
+
+.d-gd-work {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 15px;
+
+}
+
+.see-more {
+
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--primary) !important;
+
+}
+
+.see-more:hover {
+
+  transition: 1s;
+  background-color: var(--primary);
+
+}
+
+/* FOOTER */
+
+footer {
+
+  background-color: #343434;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+/* PROJECTS */
+
+.d-gd-p {
+
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 30px;
+grid-row-gap: 30px;
+
+}
+
+/* RESUME */
