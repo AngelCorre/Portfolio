@@ -70,6 +70,11 @@ section {
 
 }
 
+.bd {
+
+  border-bottom: 1px solid var(--primary) !important;
+
+}
 
 /* PERSONALIZADO GLOBALES */
 
@@ -223,7 +228,6 @@ p {
 
 /* NAVBAR */
 
-
 .navbar-link:hover{
   
   background-color: var(--primary) !important;
@@ -232,11 +236,24 @@ p {
   
 }
 
+.navbar-link {
+  
+  width: 100px;
+  
+}
+
 @media (width < 768px) {
 
   .nav-m {
 
     margin: 40px;
+  
+  }
+
+  .navbar-link {
+
+    margin-top: 10px;
+    width: 100%;
   
   }
 
